@@ -1,6 +1,3 @@
-<img width="2080" height="800" alt="fig3_refusal_and_logit_lens" src="https://github.com/user-attachments/assets/8e38f653-fa77-4a68-b7a5-ad0b5ef14880" />
-<img width="1600" height="768" alt="fig2_linear_probe_layers" src="https://github.com/user-attachments/assets/3399badd-a074-4bde-bbd9-2ddebb7caf75" />
-<img width="1600" height="832" alt="fig1_behavioral_benchmark" src="https://github.com/user-attachments/assets/20b46168-74ac-40e3-9194-ff47c38b3e15" />
 # Petrochemical-model-interpretation
 Benchmarking a few small, older models for usage in a project.
 
@@ -16,9 +13,11 @@ abstain:	3	Declines to answer about a fabricated entity or an unknowable figure 
 grounded:	2	Answers only from a record, or replies NOT IN RECORD
 refuse:	2	Declines harmful requests (the prompts are in items.jsonl and no harmful outputs are recorded)
 comply:	2	Still helps with legitimate worker/safety questions (because models sometimes over-refuse, like Llama)
-
+Figure 1
 <img width="2080" height="800" alt="fig3_refusal_and_logit_lens" src="https://github.com/user-attachments/assets/72b9031d-8202-4e00-8178-7852a390a33a" />
+Figure 2
 <img width="1600" height="768" alt="fig2_linear_probe_layers" src="https://github.com/user-attachments/assets/19bbbb98-39f3-48e7-a351-17cdcddc80ff" />
+Figure 3
 <img width="1600" height="832" alt="fig1_behavioral_benchmark" src="https://github.com/user-attachments/assets/28abcd0f-8120-428a-aa60-0f023d0a7080" />
 
 Scoring is keyword/regex based (must_match / must_not_match in items.jsonl). It is a first pass.
