@@ -1,0 +1,9 @@
+# After a successful run, replace these with pinned versions (pip freeze) for reproducibility.
+torch
+transformers>=4.50
+accelerate
+scikit-learn
+numpy
+matplotlib
+huggingface_hub
+requests   # only needed for bench.py

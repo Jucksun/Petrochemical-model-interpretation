@@ -1,0 +1,30 @@
+# Secrets and credentials
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+.huggingface/
+hf_token*
+token.txt
+
+# Cloudflare Worker
+.wrangler/
+node_modules/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large local artifacts
+*.safetensors
+*.bin
+*.gguf
