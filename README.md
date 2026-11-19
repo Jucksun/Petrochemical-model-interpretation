@@ -14,11 +14,11 @@ grounded:	2	Answers only from a record, or replies NOT IN RECORD
 refuse:	2	Declines harmful requests (the prompts are in items.jsonl and no harmful outputs are recorded)
 comply:	2	Still helps with legitimate worker/safety questions (because models sometimes over-refuse, like Llama)
 
-![Alt text](output/fig1_behavioral_benchmark.png)
+![Alt text](Petrochemical-model-interpretation/output/fig1_behavioral_benchmark.png)
 
-![Alt text](output/fig2_linear_probe_layers.png)
+![Alt text](Petrochemical-model-interpretation/output/fig2_linear_probe_layers.png)
 
-![Alt text](output/fig3_refusal_and_logit_lens.png)
+![Alt text](Petrochemical-model-interpretation/output/fig3_refusal_and_logit_lens.png)
 
 Scoring is keyword/regex based (must_match / must_not_match in items.jsonl). It is a first pass.
 
